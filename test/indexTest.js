@@ -30,3 +30,6 @@ describe("index.js", () => {
     expect(add(a,b)).to.equal(a+b)
   })
 })
+
+
+const add = (a, b) => a + b;
